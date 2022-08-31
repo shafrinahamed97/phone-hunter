@@ -9,7 +9,7 @@ const loadPhone =async() =>
 const displayPhone = phones =>
 {
     const phonesContainer = document.getElementById('phone-container');
-    phone.forEach(phone =>
+    phones.forEach(phone =>
         {
 
         })
