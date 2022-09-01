@@ -10,6 +10,10 @@ const displayPhone = phones =>
 {
     const phonesContainer = document.getElementById('phone-container');
     phonesContainer.textContent = ' ';
+
+    // display 20 phones only. 
+phones = phones.slice(0,10);
+
     phones.forEach(phone =>
         {
  const phoneDiv = document.createElement('div');
